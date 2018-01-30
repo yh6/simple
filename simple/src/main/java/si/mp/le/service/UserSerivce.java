@@ -1,5 +1,7 @@
 package si.mp.le.service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,7 +14,7 @@ public class UserSerivce {
 	@Autowired
 	private UserDAO udao;
 	
-	public User getUser() {
-		return udao.selectUser();
+	public List<User> getUser() {
+		return udao.selectUserList();
 	}
 }

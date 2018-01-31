@@ -3,7 +3,7 @@ package si.mp.le;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import si.mp.le.service.UserSerivce;
+import si.mp.le.user.service.UserSerivce;
 
 
 public class Excute {

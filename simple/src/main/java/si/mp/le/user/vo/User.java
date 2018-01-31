@@ -1,8 +1,8 @@
-package si.mp.le.vo;
+package si.mp.le.user.vo;
 
 import org.springframework.stereotype.Component;
 
-@Component
+@Component()
 public class User {
 	
 	private String uiName;

@@ -1,4 +1,4 @@
-package si.mp.le.common;
+package si.mp.le.user.common;
 
 import org.springframework.stereotype.Component;
 

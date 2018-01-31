@@ -1,4 +1,4 @@
-package si.mp.le.dao;
+package si.mp.le.user.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -11,8 +11,8 @@ import org.apache.commons.dbcp2.BasicDataSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import si.mp.le.common.DBCon;
-import si.mp.le.vo.User;
+import si.mp.le.user.common.DBCon;
+import si.mp.le.user.vo.User;
 
 @Repository
 public class UserDAO {
